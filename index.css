@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(../assets/White&black_backgroundImage.jpg);
+    background-repeat: none; */
+    /* background-position: center; */
+    /* background-size:100% 100%; */
+    /* z-index: 0; */
+    /* filter: blur(0.1vw); */
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/White&black_backgroundImage.jpg);
+    background-repeat: none;
+     width: 100vw;
+     height: 100vw;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 30vw;
+    /* background-color: antiquewhite; */
+}
+.btn-outline-secondary{
+    color: white;
+    border: 1px solid white;
+    padding: 1vw;
+
+    width: 15vw;
+    font-size: 1.5vw;
+    box-shadow: inset 5px 4px 6px white,0px 0px 0px white;
+    background-color: transparent;
+    
+}
+.btn-outline-secondary:active{
+   background-color: aliceblue;
+  color: black; 
+}
+.btn-outline-secondary:hover{
+ transform: scale(1.1);
+}
+#segment-page{
+    background-image: linear-gradient(30deg,white,silver);
+     /* z-index: 1;  */
+     background-repeat: none;
+     display:    none;
+    width: 50vw;
+    height: 100vw; 
+ } 
+nav{
+    width: 50vw;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    /* background-color: orangered; */
+
+ } 
+ .fa-chevron-left{
+font-size: 1.4vw;
+margin-left: 3.5vw;
+ }
+ #head{
+    width: 19vw;
+    height: 5vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ #head-text{
+    font-size: 1.7vw;
+    font-family: "Karla", sans-serif; 
+}
+header{
+    width: 50vw;
+    height: 13vw;
+    /* background-color: blanchedalmond; */
+    /* z-index: 2; */
+    /* text-align: justify; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 1.5vw;
+    align-items: center;
+    /* background-image: linear-gradient(30deg,white,silver); */
+
+}
+label,#text{
+    color: rgba(50, 46, 46, 0.841);
+    /* background-image: linear-gradient(30deg,rgb(247, 245, 245),rgb(222, 218, 218)); */
+    font-size: 1.2vw;
+    font-family: "Karla", sans-serif; 
+    word-spacing: 0.2vw;
+}
+label{
+    /* background-image: linear-gradient(30deg,rgb(229, 227, 227),rgb(202, 201, 201)); */
+    margin-right: 6vw;
+}
+#name-segment{
+    width: 34vw;
+    height: 3.8vw;
+    /* background-image: linear-gradient(30deg,rgb(249, 246, 246),rgb(211, 202, 202)); */
+
+}
+input::placeholder{
+    color: rgba(50, 46, 46, 0.858);
+ text-align: center;
+ font-size: 1.2vw;
+ font-family: "Karla", sans-serif; 
+}
+#headg{
+    /* background-color: aliceblue; */
+    width: 43vw;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 15vw;
+    /* background-image: linear-gradient(30deg,rgb(249, 246, 246),rgb(202, 201, 201)); */
+}
+#green,#red,.circle{
+    width: 1vw;
+    height: 1vw;
+    background-color: green;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+.list{
+    /* background-color: violet; */
+    width: 35vw;
+    height:5vw ;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info{
+    width: 50vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2vw;
+    /* background-color: aqua; */
+}
+#info-in{
+    display: flex;
+    width: 20vw;
+    height: 2vw;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+#green-sec,#red-sec{
+    height: 2vw;
+    width: 7vw;
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#red-sec{
+    /* background-color: yellowgreen; */
+    width: 8vw;
+
+}
+#gray-box{
+    width: 50vw;
+    margin-top: 2vw;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    justify-content: space-around;
+}
+#add-schema{
+    width: 10vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+#add-container{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+     /* align-items: center; */
+     
+    /* background-color: blanchedalmond; */
+}
+select{
+    width: 25vw;
+    height: 3.5vw;
+    border: 1px solid gray;
+    font-size: 1.2vw;
+    padding-right: vw;
+    border-radius: 0.2vw;
+    color: rgba(50, 46, 46, 0.858);
+    font-family: "Karla", sans-serif; 
+
+}
+/* select.input-lg {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+  }
+  select i.fa-chevron-down {
+    background-color: black;
+    width: 10vw;
+    height: 10vw;
+    color: black;
+    float: right;
+    /* margin-top: -30px; */
+    /* margin-right: 5px; */
+    /* pointer-events: none; */
+    /* background-color: #fff; */
+    /* padding-right: 5px; }*/
+    #new-schema{
+        color:royalblue;
+        margin-left: 2vw;
+        line-height: 1vw;
+        cursor: pointer;
+    }
+   
+footer{
+    width: 50vw;
+    height: 10vw;
+    background-color: rgb(233, 232, 231);
+    margin-top: 18.1vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer-btn{
+    margin-left: 2vw;
+}
+.fa-minus{
+    width: 8vw;
+    height: 1vw;
+    color: black;
+    /* border: none; */
+    background-color: black;
+}
+.minus{
+    /* border: none; */
+    width: 8vw;
+    height: 1vw;
+    color: black;
+    /* border: none; */
+    background-color: black;
+}
